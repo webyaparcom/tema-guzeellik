@@ -1,0 +1,54 @@
+{
+  "order": false,
+  "user": false,
+  "description": {
+    "tr": "Cilt ve masaj bakımı; görseller temsilîdir.",
+    "en": "Skin and massage care; images are representative.",
+    "ar": "عناية بجلد ومساج؛ الصور تمثيلية."
+  },
+  "keyword": {
+    "tr": "cilt, bakı, güzellik",
+    "en": "skin, care, beauty",
+    "ar": "جلد، عناية، جمال"
+  },
+  "category": "Kurumsal",
+  "name": "Ten Güzellik",
+  "domain": "guzeellik.webyapar.com",
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": true,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "logo": "logo.png",
+  "multi": false,
+  "publishMode": "static",
+  "font": {
+    "body": "lora",
+    "heading": "playfair-display",
+    "ar": {
+      "body": "ibm-plex-sans-arabic",
+      "heading": "noto-kufi-arabic"
+    }
+  },
+  "colorScheme": "auto",
+  "theme_color": "#B35677",
+  "seo": {
+    "noindex": true
+  },
+  "cssTokens": {
+    "--mx-radius-sm": "10px",
+    "--mx-radius-md": "16px",
+    "--mx-radius-lg": "22px",
+    "--mx-radius-xl": "30px"
+  },
+  "icon": "icon.png"
+}
