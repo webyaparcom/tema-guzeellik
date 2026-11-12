@@ -30,6 +30,12 @@
           "tr": "(yeni sekmede açılır)",
           "en": "(opens in a new tab)",
           "ar": "(يفتح في علامة تبويب جديدة)"
+        },
+        "girisHref": "",
+        "girisText": {
+          "tr": "Üye Girişi",
+          "en": "Login",
+          "ar": "تسجيل الدخول"
         }
       },
       "version": "1.0.0",
@@ -766,7 +772,12 @@
         "social_media": false,
         "logo_maxh": "60px",
         "logo_plate": false,
-        "contact_line": "auto"
+        "contact_line": "auto",
+        "logoDark": "",
+        "duzen": "",
+        "slogan": "",
+        "ikinciSutun": "",
+        "iletisimNot": ""
       },
       "version": "1.0.0",
       "icon": "widgets",
@@ -1478,9 +1489,9 @@
         "accentText": "var(--mx-site-primary-contrast, #ffffff)",
         "border": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "cta": {
-          "tr": "Teklif al",
-          "en": "Get a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Randevu al",
+          "en": "Book now",
+          "ar": "احجزي الآن"
         },
         "cta_url": "teklif-al"
       },
@@ -1522,7 +1533,7 @@
         "hiza": "orta",
         "yukseklik": 82,
         "max": "1200px",
-        "img": "guzellik-hero-salon.webp",
+        "img": "guzellik-hizmet-masaj.webp",
         "video": "",
         "poster": "",
         "alt": "Ten Güzellik",
@@ -1533,30 +1544,30 @@
         "bg": "var(--mx-site-bg, #ffffff)",
         "radius": "16px",
         "eyebrow": {
-          "tr": "Cilt bakımı",
-          "en": "Skin care",
-          "ar": "عناية بجلد"
+          "tr": "Cilt ve masaj bakımı",
+          "en": "Skin & massage care",
+          "ar": "عناية بالبشرة والمساج"
         },
         "title": {
-          "tr": "Cildin, kendi halinde",
-          "en": "Your skin, in its own way",
-          "ar": "جلدك بطريقته الخاصة"
+          "tr": "Cildiniz dinlensin, siz yenilenin",
+          "en": "Let your skin rest and yourself renew",
+          "ar": "دعوا بشرتكم ترتاح وتجدّدوا أنفسكم"
         },
         "metin": {
-          "tr": "Ten Güzellik, cilt ve masaj bakımı sunar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Ten offers skin and massage care. Images are representative and text is fictional.",
-          "ar": "يقدم تن عناية بجلد ومساج. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Ten Güzellik; cilt bakımı, aromaterapi masajı ve spa ritüelleri sunan sakin bir bakım salonudur. Görseller temsilîdir.",
+          "en": "Ten Güzellik is a calm care salon for skin care, aromatherapy massage and spa rituals. Images are representative.",
+          "ar": "تن للجمال صالون عناية هادئ للعناية بالبشرة ومساج العلاج العطري وطقوس السبا. الصور تمثيلية."
         },
         "cta1": {
-          "tr": "Bakımlar",
-          "en": "Treatments",
-          "ar": "علاجات"
+          "tr": "Bakımlarımız",
+          "en": "Our treatments",
+          "ar": "العناية المتوفرة"
         },
         "cta1_url": "hizmetler",
         "cta2": {
-          "tr": "Randevu iste",
-          "en": "Book",
-          "ar": "احجز"
+          "tr": "Randevu al",
+          "en": "Book an appointment",
+          "ar": "احجزي موعدًا"
         },
         "cta2_url": "teklif-al",
         "scroll_label": {
@@ -1601,9 +1612,9 @@
         "radius": "16px",
         "sure": 1000,
         "title": {
-          "tr": "Neler yapılır?",
-          "en": "What’s done?",
-          "ar": "ماذا يُنجز؟"
+          "tr": "Hangi bakımı seçersiniz?",
+          "en": "Which care will you choose?",
+          "ar": "أي عناية تختارين؟"
         },
         "description": {
           "tr": "Kurgusal demo verileri.",
@@ -1615,11 +1626,11 @@
         {
           "deger": 8,
           "sonek": "",
-          "ikon": "styler",
+          "ikon": "spa",
           "etiket": {
             "tr": "Bakım çeşidi",
             "en": "Treatment types",
-            "ar": "أنواع العلاجات"
+            "ar": "نوع عناية"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1628,13 +1639,13 @@
           }
         },
         {
-          "deger": 90,
-          "sonek": " %",
-          "ikon": "face_retouching",
+          "deger": 500,
+          "sonek": "+",
+          "ikon": "event_available",
           "etiket": {
-            "tr": "Memnun",
-            "en": "Satisfied",
-            "ar": "راضون"
+            "tr": "Yıllık bakım randevusu",
+            "en": "Appointments a year",
+            "ar": "موعد عناية سنويًا"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1643,13 +1654,13 @@
           }
         },
         {
-          "deger": 3,
+          "deger": 4,
           "sonek": "",
-          "ikon": "palette",
+          "ikon": "water_drop",
           "etiket": {
-            "tr": "Renk tonu",
-            "en": "Color tones",
-            "ar": "نغمات اللون"
+            "tr": "Ürün serisi",
+            "en": "Product lines",
+            "ar": "سلسلة منتجات"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1662,9 +1673,9 @@
           "sonek": "",
           "ikon": "groups",
           "etiket": {
-            "tr": "Uzman",
-            "en": "Specialists",
-            "ar": "أخصائيون"
+            "tr": "Bakım uzmanı",
+            "en": "Care specialists",
+            "ar": "أخصائية عناية"
           },
           "aciklama": {
             "tr": "Kurgusal demo değeri",
@@ -1695,85 +1706,85 @@
         "badgebg": "#2E6BFF",
         "badgecolor": "#ffffff",
         "badge": {
-          "tr": "Bakım",
-          "en": "The care",
-          "ar": "العناية"
+          "tr": "Bakım menüsü",
+          "en": "Care menu",
+          "ar": "قائمة العناية"
         },
         "title": {
-          "tr": "Neler yapılır?",
-          "en": "What’s done?",
-          "ar": "ماذا يُنجز؟"
+          "tr": "Hangi bakımı seçersiniz?",
+          "en": "Which care will you choose?",
+          "ar": "أي عناية تختارين؟"
         },
         "description": {
-          "tr": "Danışmadan finişe tek salon.",
-          "en": "From consultation to finish in one salon.",
-          "ar": "من الاستشارة إلى الإنهاء في صالة واحدة."
+          "tr": "Cilt analizinden masaja, manikürden gelin bakımına tek salonda.",
+          "en": "From skin analysis to massage, from manicure to bridal care, in one salon.",
+          "ar": "من تحليل البشرة إلى المساج، ومن المانيكير إلى عناية العروس في صالون واحد."
         }
       },
       "data": [
         {
-          "icon": "face_retouching",
+          "icon": "face",
           "name": {
             "tr": "Cilt bakımı",
             "en": "Skin care",
             "ar": "العناية بالبشرة"
           },
           "description": {
-            "tr": "Temizlik, buhar ve maske adımı.",
-            "en": "Cleansing, steam and mask steps.",
-            "ar": "خطوات التنظيف والبخار والقناع."
-          }
-        },
-        {
-          "icon": "styler",
-          "name": {
-            "tr": "Kısa/uzun kesim",
-            "en": "Short/long cut",
-            "ar": "قص قصير/طويل"
-          },
-          "description": {
-            "tr": "Kuru ve Islak kesim (demo).",
-            "en": "Dry and wet cut (demo).",
-            "ar": "قص جاف ورطب (تجريبي)."
-          }
-        },
-        {
-          "icon": "palette",
-          "name": {
-            "tr": "Renk ve boya",
-            "en": "Color and dye",
-            "ar": "اللون والصباغة"
-          },
-          "description": {
-            "tr": "Deklaratif ton ile kalıcı renk.",
-            "en": "Statement tone with permanent color.",
-            "ar": "نبرة مميزة مع لون دائم."
+            "tr": "Cilt analizi, temizlik, buhar ve maske adımları.",
+            "en": "Skin analysis, cleansing, steam and mask steps.",
+            "ar": "تحليل البشرة والتنظيف والبخار وخطوات القناع."
           }
         },
         {
           "icon": "spa",
           "name": {
-            "tr": "Spa ve masöz",
-            "en": "Spa and massage",
-            "ar": "سبا ومساج"
+            "tr": "Spa ve bakım ritüeli",
+            "en": "Spa & care ritual",
+            "ar": "السبا وطقوس العناية"
           },
           "description": {
-            "tr": "Kafa, omuz ve sırt masazı.",
-            "en": "Head, shoulder and back massage.",
-            "ar": "تدليك لرأس الكتف والظهر."
+            "tr": "Gül yaprağı, tuz ve mumlarla rahatlatıcı ritüel.",
+            "en": "A relaxing ritual with rose petals, salts and candles.",
+            "ar": "طقس مريح بتلات الورد والأملاح والشموع."
           }
         },
         {
-          "icon": "nail_care",
+          "icon": "back_hand",
           "name": {
-            "tr": "Manikür",
-            "en": "Manicure",
-            "ar": "مانيكير"
+            "tr": "Manikür ve pedikür",
+            "en": "Manicure & pedicure",
+            "ar": "المانيكير والباديكير"
           },
           "description": {
-            "tr": "El, tırnak ve oj (demo).",
-            "en": "Hand, nail and polish (demo).",
-            "ar": "يد وأظافر وطلاء (تجريبي)."
+            "tr": "El, ayak ve tırnak bakımı; oje uygulaması.",
+            "en": "Hand, foot and nail care with polish.",
+            "ar": "عناية بالأيدي والأقدام والأظافر مع الطلاء."
+          }
+        },
+        {
+          "icon": "self_improvement",
+          "name": {
+            "tr": "Aromaterapi masajı",
+            "en": "Aromatherapy massage",
+            "ar": "مساج العلاج العطري"
+          },
+          "description": {
+            "tr": "Sırt, boyun ve omuz için rahatlatıcı masaj.",
+            "en": "A relaxing massage for back, neck and shoulders.",
+            "ar": "مساج مريح للظهر والرقبة والكتفين."
+          }
+        },
+        {
+          "icon": "brush",
+          "name": {
+            "tr": "Makyaj",
+            "en": "Make-up",
+            "ar": "المكياج"
+          },
+          "description": {
+            "tr": "Günlük ve davet makyajı; ürün danışmanlığı.",
+            "en": "Daily and occasion make-up with product advice.",
+            "ar": "مكياج يومي وللمناسبات مع استشارة المنتجات."
           }
         },
         {
@@ -1784,9 +1795,9 @@
             "ar": "عناية العروس"
           },
           "description": {
-            "tr": "Düğün öncesi cilt ve makyaj hazırlığı.",
-            "en": "Skin and make-up preparation before the wedding.",
-            "ar": "تحضير البشرة والمكياج قبل الزفاف."
+            "tr": "Düğün öncesi cilt bakımı ve makyaj hazırlığı.",
+            "en": "Pre-wedding skin care and make-up preparation.",
+            "ar": "عناية بالبشرة وتحضير المكياج قبل الزفاف."
           }
         }
       ],
@@ -1814,19 +1825,19 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "linecolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 18%, transparent)",
         "badge": {
-          "tr": "Nasıl çalışırız?",
-          "en": "How we work",
-          "ar": "كيف نعمل؟"
+          "tr": "Bakım nasıl ilerler?",
+          "en": "How a visit works",
+          "ar": "كيف تسير الزيارة؟"
         },
         "title": {
-          "tr": "Dört adımda süreç",
-          "en": "Process in four steps",
-          "ar": "العملية في أربع خطوات"
+          "tr": "Dört adımda bakım",
+          "en": "Care in four steps",
+          "ar": "العناية في أربع خطوات"
         },
         "description": {
-          "tr": "İlk görüşmeden teslimata aynı akış.",
-          "en": "The same flow, from first meeting to handover.",
-          "ar": "نفس التيار من أول لقاء إلى التسليم."
+          "tr": "Danışmadan ev bakımı önerisine.",
+          "en": "From consultation to home-care advice.",
+          "ar": "من الاستشارة إلى نصائح العناية المنزلية."
         },
         "accentText": "#ffffff",
         "cardbg": "var(--mx-site-surface, #ffffff)",
@@ -1838,51 +1849,51 @@
           "title": {
             "tr": "Danışma",
             "en": "Consultation",
-            "ar": "استشارة"
+            "ar": "الاستشارة"
           },
           "text": {
-            "tr": "Saç ve cilt analizi yapılır.",
-            "en": "Hair and skin analysis is done.",
-            "ar": "يُجرى تحليل الشعر والبشرة."
+            "tr": "Cilt tipiniz ve beklentiniz konuşulur; hassasiyetler not edilir.",
+            "en": "We talk about your skin type and expectations and note any sensitivities.",
+            "ar": "نتحدث عن نوع بشرتكم وتوقعاتكم ونسجّل أي حساسية."
           }
         },
         {
           "year": "02",
           "title": {
-            "tr": "Randevu",
-            "en": "Appointment",
-            "ar": "موعد"
+            "tr": "Bakım seçimi",
+            "en": "Choosing a treatment",
+            "ar": "اختيار العناية"
           },
           "text": {
-            "tr": "Randevu ve fiyat onayı.",
-            "en": "Appointment and price confirmation.",
-            "ar": "موعد وتأكد السعر."
+            "tr": "Size uygun bakım ve süre birlikte belirlenir.",
+            "en": "The treatment and duration that suit you are chosen together.",
+            "ar": "نحدد معًا العناية والمدة المناسبة لكم."
           }
         },
         {
           "year": "03",
           "title": {
             "tr": "Uygulama",
-            "en": "Application",
+            "en": "Treatment",
             "ar": "التطبيق"
           },
           "text": {
-            "tr": "Kesim, renk ve bakım uygulanır.",
-            "en": "Cut, color and care are applied.",
-            "ar": "يُطبَّق القص واللون والعناية."
+            "tr": "Bakım sakin bir odada, hijyenik ürünlerle uygulanır.",
+            "en": "The treatment is given in a calm room with hygienic products.",
+            "ar": "تُجرى العناية في غرفة هادئة بمنتجات صحية."
           }
         },
         {
           "year": "04",
           "title": {
-            "tr": "Finiş",
-            "en": "Finish",
-            "ar": "الإنهاء"
+            "tr": "Ev bakımı önerisi",
+            "en": "Home-care advice",
+            "ar": "نصائح العناية المنزلية"
           },
           "text": {
-            "tr": "Bitiş ve ev bakımı önerisi.",
-            "en": "Finishing touch and home-care advice.",
-            "ar": "لمسة نهائية ونصائح للعناية المنزلية."
+            "tr": "Bakım sonrası evde uygulayabileceğiniz basit öneriler.",
+            "en": "Simple tips to follow at home after your treatment.",
+            "ar": "نصائح بسيطة يمكنكم اتباعها في المنزل بعد العناية."
           }
         }
       ],
@@ -1911,14 +1922,14 @@
         "textcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
         "accent": "var(--mx-site-primary, #2563eb)",
         "badge": {
-          "tr": "Ekibimiz",
-          "en": "Our team",
-          "ar": "فريقنا"
+          "tr": "Bakım ekibi",
+          "en": "Our care team",
+          "ar": "فريق العناية"
         },
         "title": {
-          "tr": "Sizi karşılayan ekip",
-          "en": "The team that welcomes you",
-          "ar": "الفريق الذي يستقبلك"
+          "tr": "Sizi karşılayan uzmanlar",
+          "en": "The specialists who welcome you",
+          "ar": "الأخصائيات اللواتي يستقبلنكِ"
         },
         "description": {
           "tr": "Kurgusal demo profiller.",
@@ -1937,37 +1948,37 @@
             "ar": "أخصائية تجميل"
           },
           "bio": {
-            "tr": "10 yıl renk.",
-            "en": "10 years of color.",
-            "ar": "١٠ سنوات في اللون."
+            "tr": "Cilt bakımı ve gelin hazırlığında 10 yıl.",
+            "en": "10 years in skin care and bridal preparation.",
+            "ar": "10 سنوات في العناية بالبشرة وتجهيز العرائس."
           },
           "img": ""
         },
         {
           "name": "Naz D.",
           "role": {
-            "tr": "Cilt Uzmanı",
-            "en": "Skincare specialist",
+            "tr": "Cilt bakım uzmanı",
+            "en": "Skin care specialist",
             "ar": "أخصائية العناية بالبشرة"
           },
           "bio": {
-            "tr": "7 yıl bakım.",
-            "en": "7 years of care.",
-            "ar": "٧ سنوات في العناية."
+            "tr": "Cilt analizi ve bakım protokollerinde 7 yıl.",
+            "en": "7 years in skin analysis and care routines.",
+            "ar": "7 سنوات في تحليل البشرة وبروتوكولات العناية."
           },
           "img": ""
         },
         {
           "name": "Ebru K.",
           "role": {
-            "tr": "Lazer Uzmanı",
-            "en": "Laser specialist",
-            "ar": "أخصائية الليزر"
+            "tr": "Masaj terapisti",
+            "en": "Massage therapist",
+            "ar": "معالجة مساج"
           },
           "bio": {
-            "tr": "5 yıl lazer.",
-            "en": "5 years of laser.",
-            "ar": "٥ سنوات في الليزر."
+            "tr": "Aromaterapi masajında 5 yıl.",
+            "en": "5 years in aromatherapy massage.",
+            "ar": "5 سنوات في مساج العلاج العطري."
           },
           "img": ""
         }
@@ -1998,14 +2009,14 @@
         "accent": "var(--mx-site-primary, #2563eb)",
         "starcolor": "#f59e0b",
         "badge": {
-          "tr": "Müşteri yorumları",
-          "en": "Customer reviews",
-          "ar": "تقييمات العملاء"
+          "tr": "Yorumlar",
+          "en": "Reviews",
+          "ar": "التقييمات"
         },
         "title": {
           "tr": "Müşterilerimiz ne diyor?",
-          "en": "What our customers say",
-          "ar": "ماذا يقول عملاؤنا؟"
+          "en": "What our clients say",
+          "ar": "ماذا تقول عميلاتنا؟"
         },
         "description": {
           "tr": "Kurgusal demo yorumlar.",
@@ -2020,45 +2031,45 @@
           "name": "Ayşe T.",
           "role": {
             "tr": "Müşteri",
-            "en": "Customer",
-            "ar": "زبون"
+            "en": "Client",
+            "ar": "عميلة"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Renk istenildiği gibi geldi.",
-            "en": "The color came as requested.",
-            "ar": "جاء اللون كما طلب."
+            "tr": "Bakımdan sonra kendimi çok dinlenmiş hissettim; ortam çok sakin.",
+            "en": "I felt really rested after the treatment; the atmosphere is very calm.",
+            "ar": "شعرتُ بالراحة الكبيرة بعد العناية والأجواء هادئة جدًا."
           }
         },
         {
           "name": "Derya B.",
           "role": {
-            "tr": "Müşteri",
-            "en": "Customer",
-            "ar": "زبون"
+            "tr": "Gelin adayı",
+            "en": "Bride-to-be",
+            "ar": "عروس المستقبل"
           },
           "rating": 5,
           "img": "",
           "text": {
-            "tr": "Bakım sonrası cilt aydınlık.",
-            "en": "Skin is bright after care.",
-            "ar": "البشرة مشرق بعد العناية."
+            "tr": "Düğün öncesi bakım programı çok düzenliydi.",
+            "en": "The pre-wedding care programme was very well organised.",
+            "ar": "كان برنامج العناية قبل الزفاف منظمًا جدًا."
           }
         },
         {
-          "name": "İ. Şahin.",
+          "name": "İ. Şahin",
           "role": {
             "tr": "Müşteri",
-            "en": "Customer",
-            "ar": "زبون"
+            "en": "Client",
+            "ar": "عميلة"
           },
           "rating": 4,
           "img": "",
           "text": {
-            "tr": "Randevu saatine uygun.",
-            "en": "Appropriate to the appointment time.",
-            "ar": "تتناسب مع وقت الموعد."
+            "tr": "Randevu saatine uyuldu; ürünler hakkında net bilgi verildi.",
+            "en": "The appointment started on time and the products were clearly explained.",
+            "ar": "بدأ الموعد في وقته وشُرحت المنتجات بوضوح."
           }
         }
       ],
@@ -2103,19 +2114,19 @@
         "radius": "16px",
         "numara": true,
         "eyebrow": {
-          "tr": "Neyi iyi yaparız?",
-          "en": "What we do well",
-          "ar": "ما نتقنه؟"
+          "tr": "Salonumuzdan",
+          "en": "From our salon",
+          "ar": "من صالوننا"
         },
         "title": {
-          "tr": "Neler yapılır?",
-          "en": "What’s done?",
-          "ar": "ماذا يُنجز؟"
+          "tr": "Hangi bakımı seçersiniz?",
+          "en": "Which care will you choose?",
+          "ar": "أي عناية تختارين؟"
         },
         "description": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; bu bir kurulum örneğidir.",
+          "en": "Images are representative; this is a setup example.",
+          "ar": "الصور تمثيلية؛ وهذا مثال تركيب."
         },
         "ctaLabel": {
           "tr": "Ayrıntı",
@@ -2131,9 +2142,9 @@
             "ar": "العناية بالبشرة"
           },
           "metin": {
-            "tr": "Temizlik, buhar ve maske adımı.",
-            "en": "Cleansing, steam and mask steps.",
-            "ar": "خطوات التنظيف والبخار والقناع."
+            "tr": "Cilt analizi, temizlik, buhar ve maske adımları.",
+            "en": "Skin analysis, cleansing, steam and mask steps.",
+            "ar": "تحليل البشرة والتنظيف والبخار وخطوات القناع."
           },
           "img": "guzellik-hizmet-cilt.webp",
           "alt": {
@@ -2145,16 +2156,16 @@
         },
         {
           "baslik": {
-            "tr": "Kısa/uzun kesim",
-            "en": "Short/long cut",
-            "ar": "قص قصير/طويل"
+            "tr": "Spa ve bakım ritüeli",
+            "en": "Spa & care ritual",
+            "ar": "السبا وطقوس العناية"
           },
           "metin": {
-            "tr": "Kuru ve Islak kesim (demo).",
-            "en": "Dry and wet cut (demo).",
-            "ar": "قص جاف ورطب (تجريبي)."
+            "tr": "Gül yaprağı, tuz ve mumlarla rahatlatıcı ritüel.",
+            "en": "A relaxing ritual with rose petals, salts and candles.",
+            "ar": "طقس مريح بتلات الورد والأملاح والشموع."
           },
-          "img": "guzellik-hizmet-masaj.webp",
+          "img": "guzellik-hizmet-spa.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2164,16 +2175,16 @@
         },
         {
           "baslik": {
-            "tr": "Renk ve boya",
-            "en": "Color and dye",
-            "ar": "اللون والصباغة"
+            "tr": "Manikür ve pedikür",
+            "en": "Manicure & pedicure",
+            "ar": "المانيكير والباديكير"
           },
           "metin": {
-            "tr": "Deklaratif ton ile kalıcı renk.",
-            "en": "Statement tone with permanent color.",
-            "ar": "نبرة مميزة مع لون دائم."
+            "tr": "El, ayak ve tırnak bakımı; oje uygulaması.",
+            "en": "Hand, foot and nail care with polish.",
+            "ar": "عناية بالأيدي والأقدام والأظافر مع الطلاء."
           },
-          "img": "guzellik-galeri-1.webp",
+          "img": "guzellik-hizmet-tirnak.webp",
           "alt": {
             "tr": "Temsilî görsel",
             "en": "Representative image",
@@ -2229,14 +2240,14 @@
         "radius": "16px",
         "showTitle": true,
         "title": {
-          "tr": "Birlikte çalıştığımız kuruluşlar",
-          "en": "Organisations we work with",
-          "ar": "جهات نعمل معها"
+          "tr": "Birlikte çalıştığımız işletmeler",
+          "en": "Businesses we work with",
+          "ar": "أنشطة نتعاون معها"
         },
         "description": {
-          "tr": "Kurgusal iş ortağı adları; gerçek bir kuruluşa ait değildir.",
-          "en": "Fictional partner names; they do not belong to a real organisation.",
-          "ar": "أسماء شركاء افتراضية لا تعود إلى جهة حقيقية."
+          "tr": "Kurgusal işletme adları; gerçek bir kuruluşa ait değildir.",
+          "en": "Fictional business names; they do not belong to a real organisation.",
+          "ar": "أسماء أنشطة افتراضية لا تعود إلى جهة حقيقية."
         },
         "listLabel": {
           "tr": "Referans logoları",
@@ -2246,22 +2257,22 @@
       },
       "data": [
         {
-          "name": "Demo Cilt"
+          "name": "Demo Gelin Evi"
         },
         {
-          "name": "Demo Saç"
+          "name": "Demo Çiçekçi"
         },
         {
-          "name": "Demo Ten"
+          "name": "Demo Kuaför"
         },
         {
-          "name": "Demo Spa"
+          "name": "Demo Otel Spa"
         },
         {
-          "name": "Demo Oj"
+          "name": "Demo Butik"
         },
         {
-          "name": "Demo Gelin"
+          "name": "Demo Hediye Evi"
         }
       ],
       "veri": {
@@ -2304,51 +2315,91 @@
       },
       "data": [
         {
+          "question": {
+            "tr": "Cilt bakımı ne kadar sürer?",
+            "en": "How long does a skin-care session take?",
+            "ar": "كم تستغرق جلسة العناية بالبشرة؟"
+          },
+          "answer": {
+            "tr": "Seçilen bakıma göre genellikle 45–75 dakika sürer; randevuda net süre bildirilir.",
+            "en": "It usually takes 45–75 minutes depending on the treatment; the exact time is confirmed when booking.",
+            "ar": "تستغرق عادةً 45–75 دقيقة حسب العناية؛ يُؤكَّد الوقت الدقيق عند الحجز."
+          },
           "soru": {
-            "tr": "Kalıcılık ne kadar?",
-            "en": "How long does it last?",
-            "ar": "كم المدة الدائمة?"
+            "tr": "Cilt bakımı ne kadar sürer?",
+            "en": "How long does a skin-care session take?",
+            "ar": "كم تستغرق جلسة العناية بالبشرة؟"
           },
           "cevap": {
-            "tr": "Cilt tipine göre değişir; demo metni örnek vermez.",
-            "en": "It varies by skin type; this demo text gives no example.",
-            "ar": "تتغير حسب نوع البشرة؛ ولا يعطي هذا النص التجريبي مثالاً."
+            "tr": "Seçilen bakıma göre genellikle 45–75 dakika sürer; randevuda net süre bildirilir.",
+            "en": "It usually takes 45–75 minutes depending on the treatment; the exact time is confirmed when booking.",
+            "ar": "تستغرق عادةً 45–75 دقيقة حسب العناية؛ يُؤكَّد الوقت الدقيق عند الحجز."
           }
         },
         {
+          "question": {
+            "tr": "Cilt hassasiyetim veya alerjim varsa ne yapmalıyım?",
+            "en": "What if I have sensitive skin or allergies?",
+            "ar": "ماذا لو كانت بشرتي حساسة أو لدي حساسية؟"
+          },
+          "answer": {
+            "tr": "Randevuda uzmanımıza bildirin; ürünler buna göre seçilir. Tıbbi bir cilt sorununuz varsa önce hekime danışın.",
+            "en": "Tell our specialist when booking and products will be chosen accordingly. If you have a medical skin condition, see a doctor first.",
+            "ar": "أخبروا الأخصائية عند الحجز وستُختار المنتجات وفقًا لذلك. وإن كان لديكم مشكلة جلدية طبية فاستشيروا الطبيب أولًا."
+          },
           "soru": {
-            "tr": "Özel gün takvimi nasıl?",
-            "en": "How is the special-day calendar?",
-            "ar": "كيف تقويم المناسبات الخاصة?"
+            "tr": "Cilt hassasiyetim veya alerjim varsa ne yapmalıyım?",
+            "en": "What if I have sensitive skin or allergies?",
+            "ar": "ماذا لو كانت بشرتي حساسة أو لدي حساسية؟"
           },
           "cevap": {
-            "tr": "En az bir hafta önceden randevu alınır.",
-            "en": "Appointments are made at least one week in advance.",
-            "ar": "يُؤخذ الموعد قبل أسبوع على الأقل."
+            "tr": "Randevuda uzmanımıza bildirin; ürünler buna göre seçilir. Tıbbi bir cilt sorununuz varsa önce hekime danışın.",
+            "en": "Tell our specialist when booking and products will be chosen accordingly. If you have a medical skin condition, see a doctor first.",
+            "ar": "أخبروا الأخصائية عند الحجز وستُختار المنتجات وفقًا لذلك. وإن كان لديكم مشكلة جلدية طبية فاستشيروا الطبيب أولًا."
           }
         },
         {
+          "question": {
+            "tr": "Sitedeki görseller ve veriler gerçek midir?",
+            "en": "Are the images and data on the site real?",
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
+          },
+          "answer": {
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî; adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a setup example. Images are representative; names, figures and people are fictional.",
+            "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
+          },
           "soru": {
             "tr": "Sitedeki görseller ve veriler gerçek midir?",
             "en": "Are the images and data on the site real?",
-            "ar": "هل الصور والبيانات في الموقع حقيقية?"
+            "ar": "هل الصور والبيانات في الموقع حقيقية؟"
           },
           "cevap": {
-            "tr": "Hayır; bu bir kuruluma örneğidir. Görseller temsilî, adlar, rakamlar ve kişiler kurgusaldır.",
-            "en": "No; this is a setup example. Images are representative and names, figures and people are fictional.",
+            "tr": "Hayır; bu bir kurulum örneğidir. Görseller temsilî; adlar, rakamlar ve kişiler kurgusaldır.",
+            "en": "No; this is a setup example. Images are representative; names, figures and people are fictional.",
             "ar": "لا؛ هذا مثال تركيب. الصور تمثيلية والأسماء والأرقام والشخصيات افتراضية."
           }
         },
         {
+          "question": {
+            "tr": "Özel gün için ne kadar önceden randevu almalıyım?",
+            "en": "How early should I book for a special day?",
+            "ar": "قبل كم من الوقت أحجز ليوم خاص؟"
+          },
+          "answer": {
+            "tr": "Gelin bakımı ve özel günler için en az bir hafta önceden randevu alınması önerilir.",
+            "en": "For bridal care and special days we recommend booking at least a week ahead.",
+            "ar": "يُنصح بالحجز قبل أسبوع على الأقل لعناية العروس والمناسبات الخاصة."
+          },
           "soru": {
-            "tr": "Fiyatlar nasıl belirlenir?",
-            "en": "How are prices determined?",
-            "ar": "كيف تُحدَّد الأسعار?"
+            "tr": "Özel gün için ne kadar önceden randevu almalıyım?",
+            "en": "How early should I book for a special day?",
+            "ar": "قبل كم من الوقت أحجز ليوم خاص؟"
           },
           "cevap": {
-            "tr": "İhtiyacınıza göre teklifle belirlenir; genel bir fiyat aralığı demo metninde yer almaz.",
-            "en": "A quote based on your needs sets the price; a general range is not shown in this demo text.",
-            "ar": "يُحدَّد السعر عبر عرض سعر حسب احتياجاتك؛ ولا يُذكر نطاق عام في هذا النص التجريبي."
+            "tr": "Gelin bakımı ve özel günler için en az bir hafta önceden randevu alınması önerilir.",
+            "en": "For bridal care and special days we recommend booking at least a week ahead.",
+            "ar": "يُنصح بالحجز قبل أسبوع على الأقل لعناية العروس والمناسبات الخاصة."
           }
         }
       ],
@@ -2406,9 +2457,9 @@
         "errcolor": "var(--mx-color-danger, #b42318)",
         "radius": "16px",
         "title": {
-          "tr": "Teklif isteyin",
-          "en": "Request a quote",
-          "ar": "اطلب عرض سعر"
+          "tr": "Randevu isteyin",
+          "en": "Request an appointment",
+          "ar": "اطلبي موعدًا"
         },
         "description": {
           "tr": "Bilgilerinizi bırakın; en geç iki iş günü içinde dönüş yaparız. Bu form demodur; e-posta istemciniz açılır, veri saklanmaz.",
@@ -2421,14 +2472,14 @@
           "ar": "Ten Güzellik"
         },
         "panelText": {
-          "tr": "Görseller temsilidir; bu bir kurulum demosıdır.",
-          "en": "Images are representative; this is a setup demo.",
-          "ar": "الصور تمثيلية وهذا عرض تجريبي."
+          "tr": "Görseller temsilîdir; bu bir kurulum örneğidir.",
+          "en": "Images are representative; this is a setup example.",
+          "ar": "الصور تمثيلية؛ وهذا مثال تركيب."
         },
         "address": {
           "tr": "Işık Sokak No: 8, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "8 Light Street, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع نور رقم 8، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "شارع النور رقم 8، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 024 01 01",
         "whatsapp": "903420240101",
@@ -2477,9 +2528,9 @@
         },
         "social": [],
         "formTitle": {
-          "tr": "Teklif formu",
-          "en": "Quote form",
-          "ar": "نموذج الطلب"
+          "tr": "Randevu formu",
+          "en": "Appointment form",
+          "ar": "نموذج الموعد"
         },
         "nameLabel": {
           "tr": "Ad Soyad",
@@ -2510,25 +2561,25 @@
           {
             "id": "a",
             "name": {
-              "tr": "Yeni talep",
-              "en": "New request",
-              "ar": "طلب جديد"
+              "tr": "Cilt bakımı",
+              "en": "Skin care",
+              "ar": "العناية بالبشرة"
             }
           },
           {
             "id": "b",
             "name": {
-              "tr": "Ölçü ve keşif",
-              "en": "Measure and survey",
-              "ar": "قياس واستقصاء"
+              "tr": "Masaj ve spa",
+              "en": "Massage & spa",
+              "ar": "المساج والسبا"
             }
           },
           {
             "id": "c",
             "name": {
-              "tr": "Teknik soru",
-              "en": "Technical question",
-              "ar": "سؤال فني"
+              "tr": "Gelin bakımı",
+              "en": "Bridal care",
+              "ar": "عناية العروس"
             }
           },
           {
@@ -2615,7 +2666,8 @@
           "tr": "Merhaba, web sitenizden yazıyorum.",
           "en": "Hello, I am writing from your website.",
           "ar": "مرحبًا، أكتب إليكم من موقعكم الإلكتروني."
-        }
+        },
+        "formAction": ""
       },
       "data": [],
       "veri": {
@@ -2639,33 +2691,33 @@
           "ar": "Ten Güzellik"
         },
         "description": {
-          "tr": "Ten Güzellik, cilt ve masaj bakımı sunar. Görseller temsilidir; metinler kurgusaldır.",
-          "en": "Ten offers skin and massage care. Images are representative and text is fictional.",
-          "ar": "يقدم تن عناية بجلد ومساج. الصور تمثيلية والنصوص افتراضية."
+          "tr": "Ten Güzellik; cilt bakımı, aromaterapi masajı ve spa ritüelleri sunan bir bakım salonudur. Görseller temsilîdir; metinler kurgusaldır.",
+          "en": "Ten Güzellik is a care salon offering skin care, aromatherapy massage and spa rituals. Images are representative; the text is fictional.",
+          "ar": "تن للجمال صالون عناية يقدّم العناية بالبشرة ومساج العلاج العطري وطقوس السبا. الصور تمثيلية والنصوص افتراضية."
         },
         "name2": {
-          "tr": "Tek salon",
-          "en": "One salon",
-          "ar": "صالة واحدة"
+          "tr": "Sakin bakım odası",
+          "en": "Calm treatment room",
+          "ar": "غرفة عناية هادئة"
         },
         "spot2": {
-          "tr": "Tüm adımlar aynı masada yürür.",
-          "en": "All steps are performed at the same table.",
-          "ar": "تسير كل الخطوات على نفس الطاولة."
+          "tr": "Loş ışık, mum ve rahat yatak ile dinlendirici ortam.",
+          "en": "A restful setting with soft light, candles and a comfortable bed.",
+          "ar": "أجواء مريحة بإضاءة خافتة وشموع وسرير مريح."
         },
-        "icon2": "verified",
+        "icon2": "bedtime",
         "name3": {
-          "tr": "Randevu defteri",
-          "en": "Appointment book",
-          "ar": "دفتر المواعيد"
+          "tr": "Bakım kartı",
+          "en": "Care card",
+          "ar": "بطاقة العناية"
         },
         "spot3": {
-          "tr": "Her müşteri için not ve ürün kaydı.",
-          "en": "A note and product record for each customer.",
-          "ar": "ملاحظة وسجل المنتج لكل زبون."
+          "tr": "Her müşteri için ürün ve hassasiyet notu tutulur.",
+          "en": "A product and sensitivity note is kept for each client.",
+          "ar": "تُحفظ ملاحظة المنتجات والحساسية لكل عميلة."
         },
-        "icon3": "schedule",
-        "img": "guzellik-hizmet-sac.webp",
+        "icon3": "assignment",
+        "img": "guzellik-galeri-2.webp",
         "bgcolor": "var(--mx-site-surface-2, #ececea)",
         "fontcolor": "var(--mx-site-text, #1b1b1b)",
         "margintop": "20",
@@ -2739,7 +2791,7 @@
         "address": {
           "tr": "Işık Sokak No: 8, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "8 Light Street, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع نور رقم 8، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "شارع النور رقم 8، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "mapsUrl": "",
         "waMessage": {
@@ -2753,9 +2805,9 @@
           "ar": "اتصل بنا"
         },
         "callText": {
-          "tr": "Hafta içi 09:00 – 18:00",
-          "en": "Weekdays 09:00 – 18:00",
-          "ar": "أيام الأسبوع 09:00 – 18:00"
+          "tr": "Pzt–Cmt 10:00 – 19:00",
+          "en": "Mon–Sat 10:00 – 19:00",
+          "ar": "الاثنين–السبت 10:00 – 19:00"
         },
         "callBtn": {
           "tr": "Ara",
@@ -2847,25 +2899,25 @@
         "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
         "radius": "16px",
         "title": {
-          "tr": "Yansın tenin",
-          "en": "Let your skin shine",
-          "ar": "دع جلدك يتلألأ"
+          "tr": "Kendinize zaman ayırın",
+          "en": "Make time for yourself",
+          "ar": "خصّصي وقتًا لنفسك"
         },
         "text": {
-          "tr": "İki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
-          "en": "We reply within two business days. No data is stored on this demo site.",
-          "ar": "نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
+          "tr": "Randevu için formu doldurun; iki iş günü içinde dönüş yaparız. Bu demo sitede veri saklanmaz.",
+          "en": "Fill in the form to book; we reply within two business days. No data is stored on this demo site.",
+          "ar": "املئي النموذج لحجز موعد؛ نردّ خلال يومي عمل. لا تُحفظ أي بيانات في هذا الموقع التجريبي."
         },
         "btn1Label": {
-          "tr": "Formu doldurun",
-          "en": "Fill the form",
-          "ar": "املأ النموذج"
+          "tr": "Randevu al",
+          "en": "Book an appointment",
+          "ar": "احجزي موعدًا"
         },
         "btn1Url": "teklif-al",
         "btn2Label": {
-          "tr": "Hizmetleri gör",
-          "en": "See services",
-          "ar": "شاهد الخدمات"
+          "tr": "Bakımları gör",
+          "en": "See treatments",
+          "ar": "شاهدي العناية المتوفرة"
         },
         "btn2Url": "hizmetler",
         "number": "903420240101",
@@ -3056,7 +3108,7 @@
         "address": {
           "tr": "Işık Sokak No: 8, Şahinbey, Gaziantep (kurgusal adres)",
           "en": "8 Light Street, Sahinbey, Gaziantep (fictional address)",
-          "ar": "شارع نور رقم 8، شين بيه، غازي عنتاب (عنوان افتراضي)"
+          "ar": "شارع النور رقم 8، شاهين بي، غازي عنتاب (عنوان افتراضي)"
         },
         "phone": "+90 342 024 01 01",
         "email": "randevu@ten.example",

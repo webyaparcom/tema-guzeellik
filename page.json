@@ -8,9 +8,9 @@
         "ar": "خدماتنا"
       },
       "description": {
-        "tr": "Danışmadan finişe tek salon.",
-        "en": "From consultation to finish in one salon.",
-        "ar": "من الاستشارة إلى الإنهاء في صالة واحدة."
+        "tr": "Cilt analizinden masaja, manikürden gelin bakımına tek salonda.",
+        "en": "From skin analysis to massage, from manicure to bridal care, in one salon.",
+        "ar": "من تحليل البشرة إلى المساج، ومن المانيكير إلى عناية العروس في صالون واحد."
       },
       "path": "hizmetler",
       "icon": "work",
@@ -51,7 +51,7 @@
       "description": {
         "tr": "Cilt ve masaj bakımı; görseller temsilîdir.",
         "en": "Skin and massage care; images are representative.",
-        "ar": "عناية بجلد ومساج؛ الصور تمثيلية."
+        "ar": "عناية بالبشرة والمساج؛ الصور تمثيلية."
       }
     },
     {

@@ -1,7 +1,7 @@
 {
   "name": "Ten Güzellik",
   "short_name": "Ten Güzellik",
-  "description": "Cilt ve masaj bakımı; görseller temsilîdir.",
+  "description": "Cilt bakımı, aromaterapi masajı ve spa ritüelleri; görseller temsilîdir.",
   "start_url": "/tr/",
   "scope": "/",
   "display": "standalone",
