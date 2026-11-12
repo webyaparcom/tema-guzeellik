@@ -2,14 +2,14 @@
   "order": false,
   "user": false,
   "description": {
-    "tr": "Cilt ve masaj bakımı; görseller temsilîdir.",
-    "en": "Skin and massage care; images are representative.",
-    "ar": "عناية بجلد ومساج؛ الصور تمثيلية."
+    "tr": "Cilt bakımı, aromaterapi masajı ve spa ritüelleri; görseller temsilîdir.",
+    "en": "Skin care, aromatherapy massage and spa rituals; images are representative.",
+    "ar": "عناية بالبشرة ومساج بالعلاج العطري وطقوس سبا؛ الصور تمثيلية."
   },
   "keyword": {
-    "tr": "cilt, bakı, güzellik",
-    "en": "skin, care, beauty",
-    "ar": "جلد، عناية، جمال"
+    "tr": "cilt bakımı, masaj, spa, manikür, gelin bakımı",
+    "en": "skin care, massage, spa, manicure, bridal care",
+    "ar": "عناية بالبشرة، مساج، سبا، مانيكير، عناية العروس"
   },
   "category": "Kurumsal",
   "name": "Ten Güzellik",

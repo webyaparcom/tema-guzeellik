@@ -6,14 +6,14 @@
     "ar": "خدماتنا"
   },
   "description": {
-    "tr": "Danışmadan finişe tek salon.",
-    "en": "From consultation to finish in one salon.",
-    "ar": "من الاستشارة إلى الإنهاء في صالة واحدة."
+    "tr": "Cilt analizinden masaja, manikürden gelin bakımına tek salonda.",
+    "en": "From skin analysis to massage, from manicure to bridal care, in one salon.",
+    "ar": "من تحليل البشرة إلى المساج، ومن المانيكير إلى عناية العروس في صالون واحد."
   },
   "keyword": {
-    "tr": "Bakım",
-    "en": "The care",
-    "ar": "العناية"
+    "tr": "Bakım menüsü",
+    "en": "Care menu",
+    "ar": "قائمة العناية"
   },
   "path": "hizmetler",
   "icon": "work",
@@ -36,5 +36,5 @@
     "ar": "خدماتنا"
   },
   "date": "2026-11-05T18:58:34.994Z",
-  "update": "2026-11-06T00:01:13.031Z"
+  "update": "2026-11-12T07:35:51.665Z"
 }
